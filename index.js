@@ -1,6 +1,7 @@
 const express = require('express');
 const path = require('path');
 const bodyParser = require("body-parser");
+const open = require('open');
 
 const app = express();
 const __path = process.cwd();
